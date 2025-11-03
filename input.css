@@ -44,7 +44,7 @@
   cursor: pointer;
   width: 24px;
   height: 24px;
-  transition: all 0.25s;
+  transition: all 0.25;
   position: relative;
 }
 
@@ -64,7 +64,6 @@
 .hamburger-middle {
   transform: translateY(7px);
 }
-
 .hamburger-bottom {
   transform: translateY(14px);
 }
@@ -76,11 +75,9 @@
 .open .hamburger-top {
   transform: rotate(45deg) translateY(6px) translateX(6px);
 }
-
 .open .hamburger-middle {
   display: none;
 }
-
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
